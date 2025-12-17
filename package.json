@@ -1,35 +1,35 @@
 {
-	"name": "unplayit",
-	"version": "0.1.0",
-	"private": true,
-	"scripts": {
-		"dev": "next dev --turbopack",
-		"build": "next build",
-		"start": "next start",
-		"lint": "next lint"
-	},
-	"dependencies": {
-		"@neondatabase/serverless": "^1.0.0",
-		"@vercel/analytics": "^1.5.0",
-		"@vercel/sdk": "^1.6.3",
-		"next": "15.3.1",
-		"next-auth": "5.0.0-beta.25",
-		"react": "^19.0.0",
-		"react-dom": "^19.0.0",
-		"serverless~": "link:\u001b[200~@neondatabase/serverless~"
-	},
-	"devDependencies": {
-		"@tailwindcss/postcss": "^4",
-		"@types/node": "^20",
-		"@types/react": "^19",
-		"@types/react-dom": "^19",
-		"tailwindcss": "^4",
-		"typescript": "^5"
-	},
-	"packageManager": "pnpm@10.8.1",
-	"pnpm": {
-		"onlyBuiltDependencies": [
-			"sharp"
-		]
-	}
+  "name": "unplayit",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.0",
+    "@vercel/analytics": "^1.5.0",
+    "@vercel/sdk": "^1.6.3",
+    "next": "15.3.8",
+    "next-auth": "5.0.0-beta.25",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "serverless~": "link:\u001b[200~@neondatabase/serverless~"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "packageManager": "pnpm@10.8.1",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "sharp"
+    ]
+  }
 }
